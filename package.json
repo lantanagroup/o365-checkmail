@@ -1,0 +1,22 @@
+{
+  "name": "o365-checkmail",
+  "version": "1.0.0",
+  "description": "Small utility that uses the Microsoft Graph API to check the number of unread messages in an inbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "o365-checkmail": "./index.js"
+  },
+  "author": "Sean McIlvenna <sean.mcilvenna@lantanagroup.com>",
+  "license": "Apache License Version 2.0, January 2004",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0",
+    "underscore": "^1.8.3",
+    "xmlbuilder": "^8.2.2",
+    "yargs": "^4.6.0"
+  }
+}
